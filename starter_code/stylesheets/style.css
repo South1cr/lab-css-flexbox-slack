@@ -86,6 +86,21 @@ footer links grey: #454245
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 90vw;
+    margin: 5px;
+}
+
+#teams-buttons>#talk-sales-button {
+    background-color: #540B51;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+#teams-buttons>#meet-slack-button {
+    background-color: white;
+    color: #540B51;
+    padding: 10px;
 }
 
 .teams-percent {
@@ -95,13 +110,43 @@ footer links grey: #454245
     margin: 20px;
 }
 
-.teams-percent > p {
+.teams-percent>p {
     margin: 0;
 }
 
-.teams-percent > .percent {
+.teams-percent>.percent {
     font-size: 64px;
     color: #540b51;
+}
+
+#digital-sales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #540B51;
+    padding: 20px 0;
+}
+
+#digital-sales>button {
+    width: 90vw;
+    padding: 10px;
+    margin: 5px;
+}
+
+#try-button {
+    background-color: white;
+    color: #540B51;
+}
+
+#sales-button {
+    background-color: #540B51;
+    color: white;
+    border: 1px solid white;
+}
+
+#digital-sales>h3 {
+    color: white;
 }
 
 
