@@ -8,3 +8,54 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-button {
+    background: transparent;
+    border: none;
+}
+
+#container {
+    background: #540b51;
+}
+
+#hero {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#hero-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sign-email, #sign-google {
+    width: 100%;
+    padding: 20px;
+}
+
+#sign-google {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 768px) { /* xs */
+
+    .hidden-sm {
+        display:none;
+    }
+
+}
