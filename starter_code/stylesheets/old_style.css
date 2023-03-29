@@ -1,0 +1,211 @@
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-button {
+    background: transparent;
+    border: none;
+}
+
+#container {
+    background: #540b51;
+}
+
+#hero {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#hero-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero-product {
+    display: flex;
+    width: 100vw;
+}
+
+#sign-email,
+#sign-google {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1rem;
+}
+
+#sign-google>img {
+    max-width: 4vw;
+    max-height: 4vw;
+    height: auto;
+    width: auto;
+}
+
+#sign-google {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#channels {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+#how-to-work {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+}
+
+#tools {
+    display: flex;
+    flex-direction: column;
+}
+
+#teams {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#teams-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 5px;
+}
+
+#teams-buttons>#talk-sales-button {
+    background-color: #540B51;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px;
+}
+
+#teams-buttons>#meet-slack-button {
+    background-color: white;
+    color: #540B51;
+    padding: 10px;
+    border: 1px solid #540B51;
+    margin: 5px;
+
+}
+
+.teams-percent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.teams-percent>p {
+    margin: 0;
+}
+
+.teams-percent>.percent {
+    font-size: 64px;
+    color: #540b51;
+}
+
+#digital-sales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #540B51;
+    padding: 20px 0;
+}
+
+#digital-sales>button {
+    width: 90vw;
+    padding: 10px;
+    margin: 5px;
+}
+
+#try-button {
+    background-color: white;
+    color: #540B51;
+}
+
+#sales-button {
+    background-color: #540B51;
+    color: white;
+    border: 1px solid white;
+}
+
+#digital-sales>h3 {
+    color: white;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex
+}
+
+#footer-links>ul {
+    list-style-type: none;
+}
+
+.ul-bolds {
+    font-weight: bold;
+}
+
+#footer-end>li {
+    font-weight: bold;
+    padding: 15px;
+    list-style-type: none;
+    font-size: 32px;
+}
+
+img {
+    max-width: 100vw;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+a {
+    font-size: 1.3rem;
+}
+
+#logo-container>p {
+    text-align: center;
+    background-color: #F3EAE2;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* xs */
+
+    .hidden-sm {
+        display: none;
+    }
+
+}
